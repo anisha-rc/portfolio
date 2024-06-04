@@ -1,0 +1,104 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color:rgb(106, 206, 201) ; */
+    color: #333;
+}
+
+
+nav{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: brown;
+}
+
+.container { 
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px; 
+}
+
+.flex {
+    display: flex;
+}
+
+.items-centre {
+    align-items: center;
+}
+
+.justify-right {
+    justify-content: flex-end;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.about {
+    background-color: rgb(245, 240, 245);
+     padding: 50px 0;
+    margin-top: 20px;
+    /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+}
+
+.left {
+    padding-right: 20px;
+}
+
+.right {
+    padding-left: 20px;
+}
+
+.right h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.right h1 span {
+    color: #007BFF;
+}
+
+.right h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.right p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.socials a {
+    margin-right: 10px;
+}
+
+/* .socials img {
+    transition: transform 0.3s;
+}
+
+.socials img:hover {
+    transform: scale(1.1);
+}*/
